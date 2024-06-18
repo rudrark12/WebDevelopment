@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlex</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="../../bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../Assets/images/Netflix-favicon0.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header class="header1 position-relative">
+        <nav class="navbar navbar-expand">
+            <div class="container">
+                <img src="../Assets/images/Netflix_Logo_RGB.png" alt="Netflix" onclick="logobtn()">
+            </div>
+        </nav>
+
+        <section class="log-in">
+            <form>
+                <div class="login-box">
+
+                    <div>
+                        <h3>Sign In</h3>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" name="userid" id="floatingInput1" class="form-control" placeholder="">
+                        <label for="floatingInput1">Email or Mobile Number</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="password" name="userid" id="floatingPassword" class="form-control" placeholder="Password">
+                        <label for="floatingPassword">Enter password</label>
+                    </div>
+                    <button type="button" class="btn-signin" onclick="signed()">Sign In</button>
+                    <h5>OR</h5>
+                    <button type="button" class="btn-sign-code" onclick="signed()">Use a sign in code</button>
+                    
+                    <a href="./frgpass.html" class="frgt-pass">Forgot Password</a>
+                    
+                    <div class="remember-me">
+                        <input type="checkbox" name="rememberme" id="rememberme">&nbsp;<label for="rememberme">
+                            <h5 style="color:#fff;">Remember Me</h5>
+                        </label>
+                    </div>
+                    <div class="signup">
+                        <p>New to Netflix?&nbsp; <a href="./signup.html" style="color:#fff">Sign Up Now</a></p>
+                    </div>
+
+
+
+                    <div class="recaptcha">
+                        <p>This page is protected by Google reCAPTCHA to ensure you're not a
+                                bot.
+                        <br><br><br><br>
+                        <p></p>                
+                    </div>
+
+
+
+
+
+
+                </div>
+            </form>
+
+        </section>
+    </header>
+
+    <!-- <section class="footer-sec">
+
+    </section> -->
+
+
+
+
+    <script>
+        function signed() {
+            window.location.href = "./home.html";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../../bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
