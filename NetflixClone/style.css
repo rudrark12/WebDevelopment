@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans:wght@400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+body {
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#signin {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/images/hdrbg.jpg");
+    background-size: cover;
+    position: 10%;
+    height: 700px;
+}
+
+.container {
+    margin-top: 5px !important;
+}
+
+nav img {
+    width: 13%;
+}
+
+.hdr-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hdr-first-p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hdr-second-p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.725rem;
+}
+
+.red-btn {
+    background: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 18px;
+    letter-spacing: 1.5px;
+}
+
+.red-btn:hover {
+    background: rgb(193, 17, 25);
+}
+
+form {
+    width: 60%;
+}
+
+form #floatingInput {
+    color: #fff;
+}
+
+form .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+
+form .form-floating>.form-control:focus~label {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+form .form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+form .form-floating {
+    width: 50%;
+}
+
+form #floatingInput {
+    background: transparent;
+    color: #fff;
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.get-started-btn {
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.get-started-btn::after {
+    content: "\276F";
+    margin-left: 5px;
+}
+
+.banner-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 10px;
+}
+
+.tv-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.tv-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tv-container video {
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    width: 73.2%;
+    height: 60%;
+    border: none;
+}
+
+.faq-section {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.faq-header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+.faq-header button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.faq-header button:hover,
+.faq-header button:focus,
+.faq-header button:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.faq-header button::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "-";
+}
+
+.faq-header button.collapsed::after {
+    content: "+";
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.collapsing {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #fff;
+}
+
+.collapsed {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #fff;
+    outline: none !important;
+}
+
+.card-header,
+.card-header:focus {
+    outline: none !important;
+}
+
+.collapsing,
+.collapse.show {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #fff;
+}
+
+.btn {
+    outline: none;
+}
+
+#navbarSupportedContent {
+    background-color: transparent !important;
+}
+
+.collapse {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+
+/* 
+.faq-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+.faq-header button {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1.25rem;
+}
+.faq-header button:hover {
+    color: #e50914;
+} */
